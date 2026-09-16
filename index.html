@@ -325,10 +325,10 @@
 
             // Construir el texto estructurado
             const texto = `*¡Nuevo contacto desde la web de Appstra!*%0A%0A` +
-                          `👤 *Nombre:* ${nombre}%0A` +
-                          `📧 *Correo:* ${correo}%0A` +
-                          `🛠️ *Servicio:* ${servicio}%0A` +
-                          `💬 *Mensaje:* ${mensaje}`;
+                          `*Nombre:* ${nombre}%0A` +
+                          `*Correo:* ${correo}%0A` +
+                          `*Servicio:* ${servicio}%0A` +
+                          `*Mensaje:* ${mensaje}`;
 
             // Abrir enlace de WhatsApp
             window.open(`https://wa.me/${telefono}?text=${texto}`, '_blank');
